@@ -1,29 +1,105 @@
-# tour-europa-teoria-grafos
-Proyecto final de Matemáticas Discretas - Optimización de rutas férrreas en Europa con el algoritmo de Kruskal
-
 # 🚆 Tour por Europa — Optimización de Rutas con Teoría de Grafos
 
-**Materia:** Matemáticas Discretas | Universidad Industrial de Santander  
-**Año:** 2023
+> Proyecto Final · Matemáticas Discretas (22954) · Grupo E1  
+> Escuela de Ingeniería de Sistemas e Informática · Universidad Industrial de Santander
 
-## 📌 Descripción
-Proyecto que optimiza un itinerario de viaje por Europa en tren 
-usando el **algoritmo de Kruskal** para encontrar el árbol recubridor 
-mínimo sobre un grafo ponderado de capitales europeas.
-
-## 🛠️ Tecnologías usadas
-- Python
-- Matplotlib
-- Teoría de Grafos
-
-## 📂 Archivos
-- `Cuaderno_Proyecto_Final.ipynb` — Código completo en Python
-- `Poster_Proyecto_Final.pdf` — Póster académico del proyecto
+---
 
 ## 🎥 Video de presentación
-👉 [Ver video aquí]([https://youtube.com/tu-link](https://youtu.be/IU31Z_dlD0w?si=SkRChU3vbgsIyXPJ))
+
+[![Ver video de presentación](https://img.youtube.com/vi/IU31Z_dlD0w/0.jpg)](https://youtu.be/IU31Z_dlD0w?si=SkRChU3vbgsIyXPJ)
+
+> 👆 Haz clic en la imagen para ver el video
+
+---
+
+## 📌 Descripción del problema
+
+La agencia **AlasExplorer** recibió a un grupo de estudiantes universitarios con buen presupuesto económico, pero con tiempo muy limitado. Su objetivo: recorrer las **capitales de los países más grandes de Europa en tren**, con el menor tiempo de desplazamiento posible.
+
+Para resolverlo, se modeló el problema usando **Teoría de Grafos**, representando las ciudades como nodos y los tiempos de viaje en tren (en horas) como los pesos de las aristas. Luego se aplicó el **algoritmo de Kruskal** para encontrar el **Árbol Recubridor Mínimo (ARM)**, es decir, la ruta que conecta todas las ciudades en el menor tiempo total.
+
+---
+
+## 🗺️ Ciudades incluidas en el grafo
+
+Bélgica · Países Bajos · UK · Irlanda · Francia · España · Portugal · Italia · Suiza · Noruega · Alemania · República Checa · Croacia · Suecia · Finlandia · Polonia · Rumania · Macedonia · Grecia
+
+---
+
+## ⚙️ ¿Cómo funciona el algoritmo de Kruskal?
+
+1. Se construye una **matriz de pesos** con los tiempos de viaje entre ciudades conectadas.
+2. El algoritmo ordena todas las aristas de **menor a mayor peso** (horas de viaje).
+3. Va seleccionando aristas una por una, **evitando ciclos**, hasta conectar todos los nodos.
+4. El resultado es el árbol que conecta todas las ciudades con la **mínima duración total del viaje**.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+| Herramienta | Uso |
+|---|---|
+| `Python` | Lenguaje principal |
+| `NetworkX` | Representación y manipulación del grafo |
+| `Matplotlib` | Visualización gráfica del grafo y del ARM |
+| Google Colab | Entorno de desarrollo |
+
+---
+
+## 📂 Archivos del repositorio
+
+| Archivo | Descripción |
+|---|---|
+| `Cuaderno_Proyecto_Final_Discretas.ipynb` | Código completo: matriz de pesos, algoritmo de Kruskal y visualización |
+| `Poster_Proyecto_Final_Discretas_V1.pdf` | Póster académico con resumen, metodología y conclusiones |
+| `README.md` | Este archivo |
+
+---
+
+## 🚀 ¿Cómo ejecutar el proyecto?
+
+1. Abre el archivo `.ipynb` en [Google Colab](https://colab.research.google.com/) o Jupyter Notebook.
+2. Ejecuta primero la celda de **importación de librerías** (`networkx` y `matplotlib`).
+3. Ejecuta las celdas en orden: Matriz de Pesos → Algoritmo de Kruskal → Visualización.
+4. ¡Verás el grafo completo de Europa y la ruta óptima calculada! 🗺️
+
+---
+
+## 📊 Resultados
+
+El algoritmo encontró el **árbol recubridor mínimo** del grafo, entregando como resultado la ruta ferroviaria de menor duración que conecta las 19 ciudades. Esta solución permite al grupo de estudiantes recorrer el mayor número de destinos europeos **gastando el menor tiempo posible en desplazamientos**.
+
+---
+
+## 💡 Conclusiones
+
+- El algoritmo de Kruskal demostró ser **eficaz y rápido** para resolver este tipo de problemas de optimización de rutas.
+- La **matriz de pesos** facilitó la representación del grafo y la evaluación de las conexiones.
+- La visualización con **Matplotlib** permitió comunicar los resultados de forma clara y accesible.
+- La solución es adaptable a otros contextos donde se requiera **optimizar recorridos en redes**.
+
+---
 
 ## 👩‍💻 Autores
-- Andrea Bernal
-- Angela Lozano  
-- Daniel Rueda
+
+| Nombre | Correo |
+|---|---|
+| Daniel Esteban Rueda | daniel2221927@correo.uis.edu.co |
+| Andrea Bernal | andrea2201827@correo.uis.edu.co |
+| Angela Lozano | angelalozano2017@gmail.com |
+| Johnathan Ramos | jonramos@correo.uis.edu.co |
+
+---
+
+## 📚 Referencias
+
+- The Train Line. (2023). *Tiempos de viaje en tren por Europa*. https://www.thetrainline.com/es/
+- Alves, A. D. S. (2016). *Teoria dos grafos: algoritmo de Kruskal e Prim aplicado em análise de dados*. https://repositorio.ufc.br/handle/riufc/32800
+- Galvis, L. (2023). *Capítulo 3: Estructuras de datos lineales y no lineales*. Universidad Industrial de Santander.
+
+---
+
+<p align="center">
+  Hecho con ❤️ en la Universidad Industrial de Santander · 2023
+</p>
