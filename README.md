@@ -9,8 +9,6 @@
 
 [![Ver video de presentación](https://img.youtube.com/vi/IU31Z_dlD0w/0.jpg)](https://youtu.be/IU31Z_dlD0w?si=SkRChU3vbgsIyXPJ)
 
-> 👆 Haz clic en la imagen para ver el video
-
 ---
 
 ## 📌 Descripción del problema
@@ -47,16 +45,6 @@ Bélgica · Países Bajos · UK · Irlanda · Francia · España · Portugal · 
 
 ---
 
-## 📂 Archivos del repositorio
-
-| Archivo | Descripción |
-|---|---|
-| `Cuaderno_Proyecto_Final_Discretas.ipynb` | Código completo: matriz de pesos, algoritmo de Kruskal y visualización |
-| `Poster_Proyecto_Final_Discretas_V1.pdf` | Póster académico con resumen, metodología y conclusiones |
-| `README.md` | Este archivo |
-
----
-
 ## 🚀 ¿Cómo ejecutar el proyecto?
 
 1. Abre el archivo `.ipynb` en [Google Colab](https://colab.research.google.com/) o Jupyter Notebook.
@@ -69,15 +57,6 @@ Bélgica · Países Bajos · UK · Irlanda · Francia · España · Portugal · 
 ## 📊 Resultados
 
 El algoritmo encontró el **árbol recubridor mínimo** del grafo, entregando como resultado la ruta ferroviaria de menor duración que conecta las 19 ciudades. Esta solución permite al grupo de estudiantes recorrer el mayor número de destinos europeos **gastando el menor tiempo posible en desplazamientos**.
-
----
-
-## 💡 Conclusiones
-
-- El algoritmo de Kruskal demostró ser **eficaz y rápido** para resolver este tipo de problemas de optimización de rutas.
-- La **matriz de pesos** facilitó la representación del grafo y la evaluación de las conexiones.
-- La visualización con **Matplotlib** permitió comunicar los resultados de forma clara y accesible.
-- La solución es adaptable a otros contextos donde se requiera **optimizar recorridos en redes**.
 
 ---
 
